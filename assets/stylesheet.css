@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444444;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(/assets/images/mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.container-calculator {
+    margin: 25px auto 25px auto;
+    font-size: 25px;
+    position: relative;
+    width: 50%;
+    height: 70%;
+    background-color:#ffffff17;
+    color: #ffcb20;
+    backdrop-filter: blur(4px);
+    text-align: center;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    overflow: auto;
+}
+
+
+h2 {
+    font-weight: 400;
+    font-size: 52px;
+    color: #ffffff;
+    background-color: #3d3d3d;
+    padding: 15px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 3px solid #959caa;
+    background-color: rgba(34, 34, 34, 0.521);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+select {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 3px solid #959caa;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+button {
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #443f37;
+    border: 0px solid #959caa;
+    background-color: #f8f9f3;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#multiply:hover {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #ffcb20;
+    color: #443f37;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#divide:hover {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #ffcb20;
+    color: #443f37;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#add:hover {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #ffcb20;
+    color: #443f37;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+html, body {
+    height: 100%;
+  }
+  .page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px; 
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+  .footer-basic, .page-wrap:after {
+    /* .push must be the same height as footer */
+    height: 142px; 
+  }
+
+
+
+@media screen and (max-width:988px){
+
+    .container-tip {
+        margin: 25px auto 25px auto;
+        position: relative;
+        width: 75%;
+
+        backdrop-filter: blur(4px);
+        text-align: center;
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        overflow: auto;
+        font-size: 20px;
+    }
+    .tip-h1 {
+        font-weight: 400;
+        font-size: 24px;
+        padding: 15px;
+        margin-bottom: 6px;
+        border-radius: 5px;
+    }
+
+    #split {
+        border: none;
+        padding: 5px;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #tipPercent {
+        padding: 5px;
+        font-size: 12px;
+
+    }
+
+}
